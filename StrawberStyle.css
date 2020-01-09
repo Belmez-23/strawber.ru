@@ -1,0 +1,56 @@
+﻿ 
+  #Zagolovok {
+    width: 99%; /* Ширина слоя */
+    margin: 0px; /* Значение отступов */
+    padding: 5px; /* Поля вокруг текста */
+    border: 0px ; /* Параметры границы */
+    background: #ff5555; /* Цвет фона */
+   }
+#Blok {
+	width: 93%; /* Ширина первого слоя */
+	padding: 10px; /* Поля вокруг текста */
+	margin: 7px; /* Значение отступов */
+	border: 3px dashed black;
+	border-color: #c83737; /* Параметры границы */
+	background: white; /* Цвет фона */
+	border-radius: 10px;
+	
+
+	
+}
+#TextBlok {
+display:block;
+width:99%;
+padding:0.5%;
+margin:0;
+border: 1px solid #ffaaaa;
+
+overflow:auto;
+}
+   html, body { 
+ /* Цвет стрелок */
+    scrollbar-face-color: pink; /* Цвет полосы прокрутки */
+   }
+
+      a {
+          text-decoration: none; /* Отменяем подчеркивание у ссылки */
+      }
+
+      /* Нечетные строки */
+      #table tbody tr:nth-child(odd) {
+          background: #ffaaaa;
+      }
+
+      /* Четные строки */
+      #table tbody tr:nth-child(even) {
+          background: #F7F7F7;
+      }
+      li {
+          list-style-type: none; /* Убираем маркеры у списка */
+      }
+
+          li:before {
+              content: "🍓 "; /* Добавляем в качестве маркера символ */
+          }
+
+         
